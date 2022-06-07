@@ -1,0 +1,13 @@
+[package]
+name = "big-vec-sample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arrayref = "0.3.6"
+borsh = "0.9.3"
+serde = "1.0.137"
+serde_derive = "1.0.137"
+solana-program = "1.9.28"
+spl-token = { version = "3.3.0", features = ["no-entrypoint"] }
+spl-stake-pool = { version = "0.6.4", features = ["no-entrypoint"] }
